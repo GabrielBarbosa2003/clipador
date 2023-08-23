@@ -16,5 +16,41 @@
         "thumbnail_url": "https://clips-media-assets2.twitch.tv/7Gdgc_6RYkVWD6Os4-JL5g/41770397225-offset-6058-preview-480x272.jpg",
         "duration": 28,
         "vod_offset": null
+    },
+    {
+        "id": "BoringSoftWaspSuperVinlin",
+        "url": "https://clips.twitch.tv/BoringSoftWaspSuperVinlin",
+        "embed_url": "https://clips.twitch.tv/embed?clip=BoringSoftWaspSuperVinlin",
+        "broadcaster_id": "22859264",
+        "broadcaster_name": "ESLCS_GG",
+        "creator_id": "101620143",
+        "creator_name": "forsenV1",
+        "video_id": "337536082",
+        "game_id": "32399",
+        "language": "en-gb",
+        "title": "PogU",
+        "view_count": 891800,
+        "created_at": "2018-11-18T17:16:48Z",
+        "thumbnail_url": "https://clips-media-assets2.twitch.tv/AT-cm%7C345061133-preview-480x272.jpg",
+        "duration": 9.9,
+        "vod_offset": 10723
+    },
+    {
+        "id": "FaintWildSoymilkLitty",
+        "url": "https://clips.twitch.tv/FaintWildSoymilkLitty",
+        "embed_url": "https://clips.twitch.tv/embed?clip=FaintWildSoymilkLitty",
+        "broadcaster_id": "21681549",
+        "broadcaster_name": "PGL",
+        "creator_id": "80736262",
+        "creator_name": "klvH",
+        "video_id": "161345632",
+        "game_id": "32399",
+        "language": "en",
+        "title": "Dosia 200 IQ Nade",
+        "view_count": 825766,
+        "created_at": "2017-07-23T17:48:14Z",
+        "thumbnail_url": "https://clips-media-assets2.twitch.tv/25826305280-offset-19394-preview-480x272.jpg",
+        "duration": 29.7,
+        "vod_offset": 19368
     }
 ]
