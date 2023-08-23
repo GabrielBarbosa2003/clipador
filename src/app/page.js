@@ -1,12 +1,21 @@
-import styles from './page.module.css'
-import Video from './components/Video'
-import VideoList from './components/VideoList'
-import SearchableVideoList from './components/SearchableVideoList'
-
+'use client'
+import styles from './page.module.css';
+import Workspace from './routes/workspace';
+import NotFound from './routes/Notfound';
+import { Routes, BrowserRouter, Route } from 'react-router-dom';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <VideoList/>
+
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<Workspace />} />
+          <Route  path="/workspace" element={<Workspace />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+
+
 
     </main>
   )
