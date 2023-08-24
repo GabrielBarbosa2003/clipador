@@ -1,37 +1,46 @@
 .main {
-  width: 250px;
+ 
   margin-right: 5%;
-  background-color:#101010;
+  background-color: #101010;
   color: #f2183c;
   padding-top: 20px;
   transition: 6s ease;
- 
+  width: 30%;
+
+
 }
+
 .sidebar {
-  width: 250px;
-  height: 100vh;
-  background-color:#101010;
+ 
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  background-color: #101010;
   color: #fff;
-  padding-top: 20px;
   transition: 4s ease;
 
+
+
 }
 
-.show {
-  transform: translateX(0);
-}
+.sidebar h2 {
+ 
+  font-size: 1.4rem;
 
-.hide {
-  transform: translateX(-100%);
 }
 
 .toggle_button {
-  display: block;
-  width: 100%;
+  margin: 1rem;
+  
+
   background-color: #f2183c;
+  border-radius: 10rem;
   color: #fff;
   border: none;
-  padding: 10px;
+  padding: 1rem;
   cursor: pointer;
 }
 
@@ -40,19 +49,49 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  transition: 1s ease;
+
 }
 
-.sidebar_list li {
-  padding: 10px;
-  border-bottom: 1px solid #555;
+.border {
+  border-top: #f2183c solid;
+
 }
 
-.sidebar_list li:last-child {
-  border-bottom: none;
-}
 
-.sidebar_list li:hover {
-  background-color: #555;
+
+.sidebar_list h2:active{
+  
+  transform: scale(104%);
+  color: #f2183c;
   cursor: pointer;
+  transition: 1s ease;
 }
 
+.sidebar .MenuFooter {
+  margin-top: 90%;
+}
+
+.sidebar img {
+  width: 80%;
+  object-fit: cover;
+}
+
+.sidebar .MenuUser {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebar .MenuUser img {
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+}
+.link {
+  text-decoration: none;
+  color: #fff;
+ 
+}
