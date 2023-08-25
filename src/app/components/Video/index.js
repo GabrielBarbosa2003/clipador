@@ -3,7 +3,6 @@ import json from "../../json/twitch.json";
 import styles from "./video.module.css";
 
 export default function Video({ video }) {
-    console.log(video.thumbnail_url)
     return (
         <div className={styles.fundoCards}>
             <div className={styles.card}>
@@ -15,6 +14,5 @@ export default function Video({ video }) {
             </div>
 
         </div>
-
     );
 }

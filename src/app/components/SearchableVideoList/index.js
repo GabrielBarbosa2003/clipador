@@ -4,11 +4,11 @@ import styles from "./searchableVideo.module.css"
 export default function SearchableVideoList() {
     return (
         <>
-            <section className={styles.menu}>
+            <section>
                 <form>
-                    <label>
+                    <label className={styles.menu}>
                         Nome do streamer:
-                        <input type="text" name="name" value='text'/>
+                        <input type="text" name="name"/>
                         Data do clip:
                         <input type="date" name="name" />
                         Horario do clip:
