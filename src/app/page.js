@@ -15,8 +15,6 @@ export default function Home() {
         </Routes>
       </BrowserRouter>
 
-
-
     </main>
   )
 }
