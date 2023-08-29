@@ -32,6 +32,7 @@ async function pegaStreamer(client_id,token,streamer) {
 }
 
 function pegaClips(client_id,token,broadcaster_id,data) {
+    console.log('eita');
     //formarto da data deve ser 2023-08-23T15:00:00Z
     try {
         const response =  axios.get(`https://api.twitch.tv/helix/clips?broadcaster_id=${broadcaster_id}&started_at=${data}'`, {
