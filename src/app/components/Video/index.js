@@ -9,6 +9,7 @@ export default function Video({ video }) {
                 <Thumbnail thumb={video.thumbnail_url} />
                 <a href={video.url}>
                     <h3>{video.title}</h3>
+         
                     <p>{video.broadcaster_name}</p>
                 </a>
             </div>

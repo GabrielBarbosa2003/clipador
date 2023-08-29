@@ -1,12 +1,13 @@
 .main {
  
   margin-right: 5%;
-  background-color: #101010;
+  background-color: var(--color2);
   color: #f2183c;
   padding-top: 20px;
   transition: 6s ease;
-  width: 20%;
-  height: 100vh
+ 
+  height: 95%;
+  
 
 
 }
@@ -19,7 +20,7 @@
   margin-left: 1rem;
   margin-right: 1rem;
 
-  background-color: #101010;
+ 
   color: #fff;
   transition: 4s ease;
 

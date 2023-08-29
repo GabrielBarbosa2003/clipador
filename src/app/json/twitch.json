@@ -53,4 +53,62 @@
         "duration": 29.7,
         "vod_offset": 19368
     }
+    ,
+    {
+        "id": "FaintWildSoymilkLitty",
+        "url": "https://clips.twitch.tv/FaintWildSoymilkLitty",
+        "embed_url": "https://clips.twitch.tv/embed?clip=FaintWildSoymilkLitty",
+        "broadcaster_id": "21681549",
+        "broadcaster_name": "PGL",
+        "creator_id": "80736262",
+        "creator_name": "klvH",
+        "video_id": "161345632",
+        "game_id": "32399",
+        "language": "en",
+        "title": "Dosia 200 IQ Nade",
+        "view_count": 825766,
+        "created_at": "2017-07-23T17:48:14Z",
+        "thumbnail_url": "https://clips-media-assets2.twitch.tv/25826305280-offset-19394-preview-480x272.jpg",
+        "duration": 29.7,
+        "vod_offset": 19368
+    }
+    ,
+    {
+        "id": "FaintWildSoymilkLitty",
+        "url": "https://clips.twitch.tv/FaintWildSoymilkLitty",
+        "embed_url": "https://clips.twitch.tv/embed?clip=FaintWildSoymilkLitty",
+        "broadcaster_id": "21681549",
+        "broadcaster_name": "PGL",
+        "creator_id": "80736262",
+        "creator_name": "klvH",
+        "video_id": "161345632",
+        "game_id": "32399",
+        "language": "en",
+        "title": "Dosia 200 IQ Nade",
+        "view_count": 825766,
+        "created_at": "2017-07-23T17:48:14Z",
+        "thumbnail_url": "https://clips-media-assets2.twitch.tv/25826305280-offset-19394-preview-480x272.jpg",
+        "duration": 29.7,
+        "vod_offset": 19368
+    }
+
+    ,
+    {
+        "id": "FaintWildSoymilkLitty",
+        "url": "https://clips.twitch.tv/FaintWildSoymilkLitty",
+        "embed_url": "https://clips.twitch.tv/embed?clip=FaintWildSoymilkLitty",
+        "broadcaster_id": "21681549",
+        "broadcaster_name": "PGL",
+        "creator_id": "80736262",
+        "creator_name": "klvH",
+        "video_id": "161345632",
+        "game_id": "32399",
+        "language": "en",
+        "title": "Dosia 200 IQ Nade",
+        "view_count": 825766,
+        "created_at": "2017-07-23T17:48:14Z",
+        "thumbnail_url": "https://clips-media-assets2.twitch.tv/25826305280-offset-19394-preview-480x272.jpg",
+        "duration": 29.7,
+        "vod_offset": 19368
+    }
 ]

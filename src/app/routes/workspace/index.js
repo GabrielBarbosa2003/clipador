@@ -10,7 +10,8 @@ export default function workspace() {
         <>
             <div className={styles.main}>
                 <BarIniatial />
-                <div>
+                <div className={styles.videos}>
+                    <h1>Clips</h1>
                     <SearchableVideoList />
                 </div>
 

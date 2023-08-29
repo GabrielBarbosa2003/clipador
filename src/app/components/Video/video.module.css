@@ -1,17 +1,25 @@
 .card{
-    width: 70%;
-    height: 140px;
+    width: 100%;
+    
     display: flex;
-    border-radius: 10px;
-    background-color: white;
+    
+    
     align-items: center;
     padding: 10px;
     
    
+
 }
+.card img{
+    height: 100px;
+    width: 200px;
+    background-size: cover;
+    
+}
+
 .card a{
     padding-left: 20px;
-    color: black;
+    color: aliceblue;
     text-decoration: none;
     font-size: 15px;
     
