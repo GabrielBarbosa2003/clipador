@@ -16,9 +16,9 @@ function geraToken(client_id,client_secret) {
 }
 
 
-function pegaStreamer(client_id,token,streamer) {
+async function pegaStreamer(client_id,token,streamer) {
     try {
-        const response =  axios.get(`https://api.twitch.tv/helix/users?login=${streamer}`, {
+        const response =  await axios.get(`https://api.twitch.tv/helix/users?login=${streamer}`, {
             headers: {
                 'Client-Id': client_id,
                 'Authorization': token }

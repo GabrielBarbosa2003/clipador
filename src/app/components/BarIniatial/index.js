@@ -25,7 +25,7 @@ export default function Sidebar() {
           <img src='https://media.discordapp.net/attachments/1143986307253682328/1144089006171246632/LogoBRANCO.png?width=1025&height=284' />
           <div className={styles.Menu}>
             <ul className={styles.sidebar_list}>
-              <NavLink  exact to="/" className = {styles.link} > <h2>Dashboard</h2></NavLink>
+              <NavLink  to="/" className = {styles.link} > <h2>Dashboard</h2></NavLink>
               <NavLink  to="/workspace"  className = {styles.link}> <h2>Monitoramento</h2></NavLink>
             
             </ul>
