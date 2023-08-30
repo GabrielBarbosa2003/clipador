@@ -3,7 +3,9 @@ import json from "../../json/twitch.json";
 import styles from "./video.module.css";
 
 export default function Video({ video }) {
+    
     return (
+        
         <div className={styles.fundoCards}>
             <div className={styles.card}>
                 <Thumbnail thumb={video.thumbnail_url} />

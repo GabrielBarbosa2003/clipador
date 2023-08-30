@@ -3,10 +3,10 @@
     grid-template-columns: 20% 80%;
     background-color: var(--color1);
     color: aliceblue;
-   
+    height: 100%;
 }
 
 .videos{
-    height: 100%;
+   
     text-align: center;  
 }
