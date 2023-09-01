@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    background-color: var(--color1);
+    color: aliceblue;
+    border: 2px red solid;
+    width: 70%;
+   
+}
+
+.videos{
+    height: 100%;
+    text-align: center;  
+    border: 2px blue solid;
+}
