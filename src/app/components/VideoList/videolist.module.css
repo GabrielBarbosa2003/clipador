@@ -5,6 +5,12 @@
     border-radius: 10px;
 
 }
+.main h1{
+   color: aliceblue;
+   text-align: center;
+    
+   
+}
 .video{
     margin: 2rem;
     padding: auto;

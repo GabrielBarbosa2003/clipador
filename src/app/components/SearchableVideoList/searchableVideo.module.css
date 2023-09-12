@@ -1,12 +1,14 @@
 .main {
     padding: 10px;
     display: flex;
-    
+    color: white;
     margin: 1rem;
     justify-content: center;
     border:solid 1px var(--color3);
     background-color: var(--color2);
     border-radius: 10px;
+   
+    
 
 }
 
