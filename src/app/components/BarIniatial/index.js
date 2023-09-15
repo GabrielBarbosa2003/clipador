@@ -23,10 +23,10 @@ export default function Sidebar() {
           <NavLink to="/"><img src='https://media.discordapp.net/attachments/1143986307253682328/1144089006171246632/LogoBRANCO.png?width=1025&height=284'/></NavLink>
           <div className={styles.Menu}>
             <ul className={styles.sidebar_list}>
-              <NavLink  to="/" className = {styles.link}> <FaGaugeHigh className={styles.icons} /> <h2>Dashboard</h2></NavLink>
-              <NavLink  className = {styles.link}> <FaEye className={styles.icons} /> <h2>Monitoramento</h2></NavLink>
-              <NavLink  to="/workspace" className = {styles.link}> <h4>Buscar clipes</h4></NavLink>
-              <NavLink  to="/workspace" className = {styles.link}> <h4>Canais monitorados</h4></NavLink>
+              <NavLink  to="/dashboard" className = {styles.link} activeclassName = {styles.active}> <FaGaugeHigh className={styles.icons} /> <h2>Dashboard</h2></NavLink>
+              <NavLink  to="/monitor/channels" className = {styles.link}> <FaEye className={styles.icons} /> <h2>Monitoramento</h2></NavLink>
+              <NavLink  to="/monitor/channels" className = {styles.link}> <h4>Canais monitorados</h4></NavLink>
+              <NavLink  to="/monitor/search" className = {styles.link}> <h4>Buscar clipes</h4></NavLink>
               <div>
                 <div className = {styles.status}>Em breve</div>
                 <h2 className = {styles.breve}>Automação</h2>
@@ -36,8 +36,8 @@ export default function Sidebar() {
 
           <div className={styles.MenuFooter}>
             <ul className={styles.sidebar_list}>
-              <NavLink  to="/workspace" className ={styles.link}> <FaGear className={styles.icons} /> <h2>Configuração</h2></NavLink>
-              <NavLink  to="/workspace" className ={styles.link}> <FaQuestion className={styles.icons} /> <h2>Ajuda</h2></NavLink>
+              <NavLink  to="/settings" className ={styles.link}> <FaGear className={styles.icons} /> <h2>Configuração</h2></NavLink>
+              <NavLink  to="/help" className ={styles.link}> <FaQuestion className={styles.icons} /> <h2>Ajuda</h2></NavLink>
             </ul>
 
             <div className={styles.border}></div>

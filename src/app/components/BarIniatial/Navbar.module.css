@@ -50,7 +50,18 @@
   margin: 0 -8px;
 }
 
-.sidebar_list h2:hover{
+.link:hover, .link:hover .icons {
+  transform: scale(104%);
+  cursor: pointer;
+  color: var(--color3);
+  transition: 0.3s ease;
+}
+
+.active {
+  color: var(--color3);
+}
+
+.sidebar_list h4:hover{
   transform: scale(104%);
   color: var(--color3);
   cursor: pointer;
