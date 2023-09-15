@@ -91,10 +91,18 @@
   margin-top: 3rem;
 }
 
-.arrowIcon {
-  font-size: 1.4rem;
-  margin-right: 5px;
+.icons {
+  font-size: 1.2rem;
+  margin-right: 10px;
   margin-left: -4px;
+  color: var(--text1);
+}
+
+.iconsActive {
+  font-size: 1.4rem;
+  margin-right: 10px;
+  margin-left: -4px;
+  transition: all 0.5s ease;transition: .5s ease-out;
   color: var(--color3);
 }
 
