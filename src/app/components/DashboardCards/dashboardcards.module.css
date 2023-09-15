@@ -1,0 +1,15 @@
+.main {
+    display: grid;
+}
+
+.card1 h1 {
+    color: blue;
+}
+  
+.card2 h1 {
+    color: yellow;
+}
+
+.card3 h1 {
+    color: red;
+}
