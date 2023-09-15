@@ -64,8 +64,8 @@ export default function SearchableVideoList() {
                     </label>
 
                     <div className={styles.buttons}>
-                        <input type="submit" value="Enviar" />
-                        <input type="reset" value="Reset"  onClick={() => resetForm()} />
+                        <input type="submit" value="Pesquisar" />
+                        <input type="reset" value="Limpar"  onClick={() => resetForm()} />
                     </div>
 
                 </form>

@@ -1,86 +1,69 @@
 .main {
-  margin-right: 5%;
   background-color: var(--color2);
-  color: #f2183c;
-  padding-top: 20px;
-  transition: 6s ease;
+  color: var(--color3);
   width: 100%;
   height: 100%;
-  
 }
 
 .sidebar {
- 
   display: flex;
   flex-direction: column;
-
-  margin-left: 1rem;
-  margin-right: 1rem;
-
- 
-  color: #fff;
-  transition: 4s ease;
-
-
+  color: var(--text1);
+  height: 97%;
+  margin: 20px 20px 0;
 }
 
 .sidebar h2 {
- 
   font-size: 1.4rem;
-
+  display: flex;
+  margin: 5px 0;
 }
 
 .toggle_button {
   margin: 1rem;
-  
-
-  background-color: #f2183c;
+  background-color: var(--color3);
   border-radius: 10rem;
-  color: #fff;
+  color: var(--text1);
   border: none;
   padding: 1rem;
   cursor: pointer;
 }
 
-
 .sidebar_list {
   list-style: none;
   padding: 0;
   margin: 0;
-  transition: 1s ease;
-
+  margin-bottom: 2rem;
 }
 
 .border {
-  border-top: #f2183c solid;
-
+  border-radius: 10px;
+  border: 1px var(--color3) solid;
+  margin: 0 -8px;
 }
 
-
-
-.sidebar_list h2:active{
-  
+.sidebar_list h2:hover{
   transform: scale(104%);
-  color: #f2183c;
+  color: var(--color3);
   cursor: pointer;
-  transition: 1s ease;
+  transition: 0.3s ease;
 }
 
 .sidebar .MenuFooter {
-  margin-top: 90%;
+  margin-top: auto;
 }
 
 .sidebar img {
-  width: 80%;
+  width: 90%;
   object-fit: cover;
+  display: block;
 }
 
 .sidebar .MenuUser {
- 
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .sidebar .MenuUser img {
@@ -89,7 +72,25 @@
   object-fit: cover;
 }
 .link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: #fff;
- 
+}
+
+.Menu {
+  margin-top: 3rem;
+}
+
+.FaAngleRight {
+  margin-right: 5px;
+  margin-left: -4px;
+  color: red;
+}
+
+/* Responsividade Celular */
+@media screen and (max-width: 768px) {
+  .main {
+    display: none;
+  }
 }

@@ -1,24 +1,19 @@
 .main{
-    margin: 2rem;
+    margin-top: 2rem;
     padding: 0.5rem;
     background-color: var(--color2);
     border-radius: 10px;
-
 }
+
 .main h1{
    color: aliceblue;
    text-align: center;
-    
-   
 }
+
 .video{
-    margin: 2rem;
     padding: auto;
     display: grid;
     grid-template-columns:50% 50% ;
     grid-gap: 1rem;
     text-align:left
-    
-    
-   
 }

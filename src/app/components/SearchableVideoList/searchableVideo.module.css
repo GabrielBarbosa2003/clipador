@@ -2,26 +2,18 @@
     padding: 10px;
     display: flex;
     color: white;
-    margin: 1rem;
     justify-content: center;
     border:solid 1px var(--color3);
     background-color: var(--color2);
     border-radius: 10px;
-   
-    
-
 }
-
-
 
 .main .forms {
     width: 100%;
     padding: 0.5rem;
     border-radius: 10px;
-    
     display: flex;
     flex-direction: column;
-  
     gap: 0.5rem;
     text-decoration: none;
 }
@@ -29,25 +21,23 @@
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
-    
 }
 .main .forms .inputs input{
-    
     background-color: var(--color1);
     border: none;
     color: white;
     padding: 4px 4px;
     text-decoration: none;
     border-radius: 10px;
-
 }
 .main .forms .buttons input{
     background-color: var(--color3);
     border: var(--color1);
     color: white;
-    padding: 8px 16px;
+    padding: 8px 30px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 5px;
+    font-weight: 600;
 }

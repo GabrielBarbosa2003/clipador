@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
   
   --color1: #101010;
   --color2: #1C1C1C;
   --color3: #f2183c;
-
+  --text1: #fff;
 }
 
