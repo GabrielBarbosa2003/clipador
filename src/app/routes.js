@@ -14,7 +14,7 @@ function AppRoutes() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<PaginaDefault/>}>
-                    <Route path="/dashboard" element={<Dashboard/>} />
+                    <Route index element={<Dashboard/>} />
                     <Route path="/monitor/channels" element={<Channels/>} />
                     <Route path="/monitor/search" element={<SearchableVideoList/>} />
                     <Route path="/settings" element={<Settings/>} />
