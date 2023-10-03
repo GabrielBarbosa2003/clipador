@@ -6,15 +6,29 @@ export default function DashboardTabs() {
 
   return (
     <div className={styles.main}>
-        <div classNames={styles.card1}>
-          <h1>Card1</h1>
+      <div className={styles.tabContainer}>
+        <div className={styles.tab1}>
+          <div className={styles.tab}>
+            <div className={styles.tabContent}>
+
+            </div>
+          </div>
         </div>
-        <div classNames={styles.card2}>
-          <h1>Card2</h1>
+        <div className={styles.tabs2and3}>
+          <div className={styles.tab}>
+            <h2>Texto</h2>
+            <div className={styles.tabContent}>
+
+            </div>
+          </div>
+          <div className={styles.tab}>
+            <h2>Texto</h2>
+            <div className={styles.tabContent}>
+
+            </div>
+          </div>
         </div>
-        <div classNames={styles.card3}>
-          <h1>Card3</h1>
-        </div>
+      </div>
     </div>
   );
 };
