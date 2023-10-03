@@ -1,0 +1,150 @@
+.main {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;transition: .5s ease-out;
+}
+
+.sidebar {
+    width: 260px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: var(--color2);
+    position: fixed;
+}
+
+.logo_container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo_container .logo {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.logo_container .logo_mobile {
+    display: none;
+}
+
+.menu {
+    margin: 2rem 2rem;
+    margin-bottom: none;
+}
+
+.nav_links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.nav_links h2 {
+    font-size: 1.4rem;
+    display: flex;
+    margin: 5px 0;
+}
+.nav_links h4 {
+    font-size: 1rem;
+    display: flex;
+    margin: 0;
+    margin-left: 25px;
+}
+.nav_links h4:hover{
+    transform: scale(104%);
+    color: var(--color3);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text1);
+}
+.link:hover, .link:hover .icons {
+    transform: scale(104%);
+    cursor: pointer;
+    color: var(--color3);
+    transition: 0.3s ease;
+}
+
+.icons {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    margin-left: -4px;
+    color: var(--text1);
+}
+
+.border {
+    border-radius: 10px;
+    border: 1px var(--color3) solid;
+    margin: 0 -10px;
+}
+
+.sidebar .footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.sidebar .menu_user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text1);
+    gap: 0.5rem;
+    margin: 10px 0;
+}
+
+.sidebar .menu_user img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 16px;
+    background: var(--color1);
+    padding: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 80px;
+    }
+
+    .nav_links h2,
+    .logo_container .logo,
+    .nav_links h4 {
+        display: none;
+    }
+    
+    .logo_container .logo_mobile {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+
+    .icons {
+        font-size: 2rem;
+    }
+}
+
+.breve {
+    color: var(--text1);
+    opacity: 0.6;
+    margin-top: 3rem!important;
+}
+  
+.status {
+    background-color: var(--color3);
+    color: var(--text1);
+    padding: 0px 6px;
+    text-align: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 10.5rem;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    z-index: 2;
+}
