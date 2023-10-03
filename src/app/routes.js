@@ -7,6 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import Channels from "./pages/Channels";
 import Settings from "./pages/Settings";
 import Help from "./pages/Help";
+import Login from "./pages/login";
 
 function AppRoutes() {
     return (
@@ -21,6 +22,10 @@ function AppRoutes() {
                     <Route path="/help" element={<Help/>} />
                     <Route path="*" element={<Dashboard/>} />
                 </Route>
+                <Routes>
+                <Route path="/login" element={<Login/>} />
+                </Routes>
+                
             </Routes>
         </BrowserRouter>
     )
