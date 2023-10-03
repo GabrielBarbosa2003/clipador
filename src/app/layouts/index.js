@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom"
 import Sidebar from "../components/BarIniatial"
 import styles from "./default.module.css"
-import Dashboard from "../pages/dashboard";
+import Dashboard from "../pages/Dashboard";
 
  function PaginaDefault() {
     return (
